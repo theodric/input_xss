@@ -1,7 +1,7 @@
 # input_xss
 Brute-force solution to getting XScreenSavers under Wayland
 
-Alright so Wayland fucking sucks but they're going to ram it down our throats anyway, right? Because apparently X11 is a fascist protocol or something. Sure, buddy...
+Alright so Wayland fucking sucks but they're going to ram it down our throats anyway, right? Because apparently X11 is a nazi display server now. I love that we made everything political.
 
 Problem: Wayland doesn't support screensavers because apparently a feature available on every major operating system "isn't needed anymore" according to the fucking morons at DeadRat who have placed themselves in charge of deciding what I get to have on my computer (which doesn't even run their F-tier shitstribution). 
 
