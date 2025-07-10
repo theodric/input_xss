@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+# "300" as in 300 seconds, as in 5 minutes. Change this if you like.
+Exec=/usr/local/bin/input_xss.py 300
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Input XSS Idle Daemon
+Comment=Custom idle detection for xscreensaver
