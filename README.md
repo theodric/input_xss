@@ -2,6 +2,7 @@
 Brute-force solution to getting XScreenSavers under Wayland
 
 This watches /dev/input/event*, issues "xscreensaver-command -activate" after the configured timeout period (in seconds) when it doesn't see keyboard/mouse input, and issues "xscreensaver-command -deactivate" when it sees some input (even though that shouldn't be necessary!). 
+It also watches DBus for Inhibit events, but because of some bullshit I can't comprehend there's apparently no Uninhibit sent to the portal...? Or I'm too retarded to figure it out. Anyway, I'm catching KDE Inhibit events, instead, which seems to work: your YouTube video should stop the screensaver from starting, and the idle countdown should start running as soon as you pause.
 
 Alright so Wayland fucking sucks but they're going to ram it down our throats anyway, right? Because apparently X11 is a fascist protocol or something. Sure, buddy...
 
